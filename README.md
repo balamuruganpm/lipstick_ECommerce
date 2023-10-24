@@ -7,7 +7,7 @@
 
 # Live Preview
 
-<a href="https://balamuruganpm.github.io/lipstick_ECommerce/"><img src="livepreview.png" width="70" height="70"></a>
+<a href="https://selfie-bd.github.io/lipstick_ECommerce/"><img src="livepreview.png" width="70" height="70"></a>
 
 ## Projects
 
