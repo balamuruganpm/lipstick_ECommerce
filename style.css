@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Teko&display=swap');
+
+* {
+    padding: 0%;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0%;
+}
+
+ul li a {
+    font-family: 'Exo 2', sans-serif;
+}
+
+ul li a:hover {
+    color: gray;
+}
+
+.container h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+}
+
+.container img {
+    border-radius: 20px;
+}
+
+.discount,form {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 180px;
+}
+
+.dis-box h4 {
+    font-size: 1.5rem;
+}
+
+.dis-box p:last-child {
+    font-size: 1.5rem;
+}
+
+.dis-box p span {
+    font-size: 1.3em;
+    color: red;
+}
+
+.p1 {
+    position: relative;
+    padding: 100px;
+    background: url(p1.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.p2 {
+    position: relative;
+    padding: 100px;
+    background: url(p2.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.p3 {
+    position: relative;
+    padding: 100px;
+    background: url(p3.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.p1 p {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    transform: rotate(90deg);
+    font-size: 2rem;
+}
+
+.features {
+    padding: 50px;
+    background-color: beige;
+}
+
+.features h1 {
+    font-size: 3rem;
+    color: red;
+}
+
+.features1 {
+    width: 200px;
+}
+
+.features img {
+    width: 100px;
+}
+
+.products {
+    padding: 50px;
+}
+
+.viewall:hover {
+    cursor: pointer;
+}
+
+.products h2 {
+    color: red;
+}
+
+.products1 img {
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+
+.contact {
+    font-family: 'Exo 2', sans-serif;
+}
+
+footer {
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width: 768px) {
+
+    .discount,form {
+        padding: 50px;
+        background-color: black;
+        color: white;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+
+    .p1 {
+        position: relative;
+        padding: 50px;
+        background: url(p1.jpg);
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .p2 {
+        position: relative;
+        padding: 50px;
+        background: url(p2.jpg);
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .p3 {
+        position: relative;
+        padding: 50px;
+        background: url(p3.jpg);
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+}
